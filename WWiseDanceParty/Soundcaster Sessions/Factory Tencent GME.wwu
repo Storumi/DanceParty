@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3EA2E3B3-7F7D-4DDB-8BA8-CD777EC933AC}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Factory Tencent GME" ID="{3EA2E3B3-7F7D-4DDB-8BA8-CD777EC933AC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Tencent GME" ID="{7255A455-7EFE-4D24-8ACB-872C5CB0ED2C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_GME_Send" ID="{8973DC7A-7E7A-4A84-AD30-B546CB50720B}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_GME_Send_Loop" ID="{E6A363E6-B008-4E2E-94CF-1AA3B670656D}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Loop" ID="{C29764DA-06FD-43A1-AC62-ED16F82E46C9}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Short" ID="{DEC87872-7CA3-4FDF-99A9-97F4AD73A5F1}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_GME_Receive" ID="{1E18FDB9-8309-474B-9D84-49B3160F1D07}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

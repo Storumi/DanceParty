@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="MusicPlaylistContainer" ID="{21920296-CE32-419E-847A-1B0104066ED8}" ShortID="407213244">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B326197-EF00-49FB-AB26-FBFCEB1E8379}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E1564C7-4885-4C9E-95FE-DFA8CC06C6FD}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{33AD3B8C-CDA7-47D5-AFE4-87E6C3C69124}" ShortID="890594003">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{AE4A92A8-183C-43D9-9C24-8E5BDAF32A60}" ShortID="204304636">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="DanceMusicSegment" ID="{B9370519-9474-41D3-A246-667663624213}" WorkUnitID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{A874C293-534B-45A7-9C8B-9FA976991CAD}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{39646B61-6866-40AC-8D6D-7D0F0223E9A4}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="DanceMusicSegment" ID="{B9370519-9474-41D3-A246-667663624213}" ShortID="1043113525">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="18436.4459070341"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B326197-EF00-49FB-AB26-FBFCEB1E8379}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E1564C7-4885-4C9E-95FE-DFA8CC06C6FD}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="DancePartyAudioFiles" ID="{4CE5167F-0C10-4176-A44F-887907AD0E02}" ShortID="407277746">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E1564C7-4885-4C9E-95FE-DFA8CC06C6FD}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{E613A75F-1FCA-410E-BC22-8EB99B8C724E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DancePartyAudioFiles" ID="{E2A9C2EF-ABA2-4F7B-A827-3407E2A0C236}">
+											<Language>SFX</Language>
+											<AudioFile>DancePartyAudioFiles.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="194467068"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{860FE5E2-D0E4-4BC5-80E6-CE12C4E2B99F}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="DancePartyAudioFiles" ID="{F4A4E0F4-F13F-4917-86C2-C10BAF4DA90C}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="18000"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="DancePartyAudioFiles" ID="{E2A9C2EF-ABA2-4F7B-A827-3407E2A0C236}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B94924A2-52BC-4493-BC3C-0F17651B806B}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{CBD72DFF-761E-41B6-AF1F-1501E9F43A4A}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="16002.8794734677"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

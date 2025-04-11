@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3104675574",
+    "Type": "User",
+    "GUID": "{5BE8C6CB-374E-41E0-9E6C-6CC83A9F4033}",
+    "Language": "SFX",
+    "Hash": "{376C3019-FBB0-143B-81E4-5024F86FE761}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MySoundbank",
+    "ShortName": "MySoundbank",
+    "Path": "MySoundbank.bnk",
+    "Media": [
+     {
+      "Id": "194467068",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DancePartyAudioFiles.wav",
+      "CachePath": "35/{35C078B8-15CF-919C-15E4-C0B128BE4BE5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2356916426",
+      "Name": "Play_MusicPlaylistContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MusicPlaylistContainer",
+      "GUID": "{3BF1CA24-A41C-4CD8-8978-489A89C0A501}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "194467068"
+       }
+      ]
+     },
+     {
+      "Id": "3985336800",
+      "Name": "Stop_MusicPlaylistContainer",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_MusicPlaylistContainer",
+      "GUID": "{C8380465-FFBD-4A57-9979-062246724E93}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CD46CB7F-DB22-6655-CEE3-1A9D84A47C38}"
+ }
+}

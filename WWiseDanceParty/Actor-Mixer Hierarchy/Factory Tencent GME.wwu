@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4726262-E090-441D-87BF-E875DC3BF2BF}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Factory Tencent GME" ID="{D4726262-E090-441D-87BF-E875DC3BF2BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="GME Receive" ID="{2C246068-6A57-4DB8-B53E-D17A55F0679F}" ShortID="75742271">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{2991E371-C831-4895-B6C2-58499524EFDA}" WorkUnitID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tencent GME Receive" ID="{D23B1C35-7200-4304-823C-7BC29061CADC}" ShortID="312778980" PluginName="Tencent GME Receive" CompanyID="289" PluginID="9003">
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tencent GME Receive" ID="{D23B1C35-7200-4304-823C-7BC29061CADC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Short" ID="{F0598286-89B5-4E28-BC1E-F4C052A28A84}" ShortID="249854755">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{2991E371-C831-4895-B6C2-58499524EFDA}" WorkUnitID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{DFE6A69F-1249-4536-BD50-A69A113E0307}" ShortID="392570486" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="DurMode" Type="int32" Value="1"/>
+								<Property Name="FixDur" Type="Real32" Value="0.5"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+								<Property Name="StartFreq" Type="Real32" Value="880"/>
+								<Property Name="StopFreq" Type="Real32" Value="440"/>
+								<Property Name="SustainLevel" Type="Real32" Value="0"/>
+								<Property Name="SustainTime" Type="Real32" Value="0.25"/>
+								<Property Name="SweepFreq" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{DFE6A69F-1249-4536-BD50-A69A113E0307}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Loop" ID="{4B54441F-F3B7-40A3-AA8C-54BE7D22B670}" ShortID="953929738">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{2991E371-C831-4895-B6C2-58499524EFDA}" WorkUnitID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Tone Generator" ID="{9044D1C9-B960-4E4B-9749-B0F8DC4442CB}" ShortID="747922802" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+							<PropertyList>
+								<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+								<Property Name="DurMode" Type="int32" Value="1"/>
+								<Property Name="ReleaseTime" Type="Real32" Value="0.05"/>
+								<Property Name="StartFreq" Type="Real32" Value="220"/>
+								<Property Name="StopFreq" Type="Real32" Value="440"/>
+								<Property Name="SustainLevel" Type="Real32" Value="0"/>
+								<Property Name="SweepFreq" Type="bool" Value="True"/>
+								<Property Name="WaveGain" Type="Real32" Value="-24"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tone Generator" ID="{9044D1C9-B960-4E4B-9749-B0F8DC4442CB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="GME Send Mixer" ID="{6FBE1311-6377-418E-90C8-182CA413C2B7}" ShortID="955880782">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Send Audio Bus" ID="{2C3CA4F7-45E3-4E8A-9336-0F6C503C5918}" WorkUnitID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="GME Send Voice" ID="{27786AED-5C2E-42F6-BB7A-9D230E8FE113}" ShortID="745673146">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D55E0448-44EE-4FCC-B99F-5CDBFFC00DE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Tencent GME Source" ID="{701F3751-9594-4A33-A619-2FEEEDF04DA6}" ShortID="403148069" PluginName="Tencent GME Source" CompanyID="289" PluginID="9001">
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tencent GME Source" ID="{701F3751-9594-4A33-A619-2FEEEDF04DA6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<BlendContainer Name="GME Send Loop" ID="{BCAA2E0C-278B-4566-A986-E04A261C8123}" ShortID="136366396">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D55E0448-44EE-4FCC-B99F-5CDBFFC00DE6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="GME Send Loop" ID="{1F8F8452-5667-473A-B4DE-E71C4851ADBA}" ShortID="113571157">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Send Audio Bus" ID="{2C3CA4F7-45E3-4E8A-9336-0F6C503C5918}" WorkUnitID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Tone Generator" ID="{1193DD67-7D0E-4E46-BFE3-1862358E1CA2}" ShortID="463440259" PluginName="Wwise Tone Generator" CompanyID="0" PluginID="102">
+											<PropertyList>
+												<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+												<Property Name="DurMode" Type="int32" Value="1"/>
+												<Property Name="ReleaseTime" Type="Real32" Value="0.05"/>
+												<Property Name="StartFreq" Type="Real32" Value="220"/>
+												<Property Name="StopFreq" Type="Real32" Value="440"/>
+												<Property Name="SustainLevel" Type="Real32" Value="0"/>
+												<Property Name="SweepFreq" Type="bool" Value="True"/>
+												<Property Name="WaveGain" Type="Real32" Value="-24"/>
+											</PropertyList>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Tone Generator" ID="{1193DD67-7D0E-4E46-BFE3-1862358E1CA2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Muted Voice GME Source" ID="{5E8EF2A9-2D42-44FC-A59B-9ECB8A3E4121}" ShortID="48829441">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DFB3D9BA-570D-4E97-9307-573F4321BE67}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D55E0448-44EE-4FCC-B99F-5CDBFFC00DE6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<SourcePlugin Name="Tencent GME Source" ID="{0EFBC3D0-C41B-471F-84B2-B6A910DF0851}" ShortID="405326769" PluginName="Tencent GME Source" CompanyID="289" PluginID="9001">
+											<Comment>The GME Send plugin requires an active GME Source.</Comment>
+											<Language>SFX</Language>
+										</SourcePlugin>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Tencent GME Source" ID="{0EFBC3D0-C41B-471F-84B2-B6A910DF0851}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

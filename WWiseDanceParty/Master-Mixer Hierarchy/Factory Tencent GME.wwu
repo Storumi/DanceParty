@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Factory Tencent GME" ID="{C4E18351-9CB5-4067-9841-86B2B228B0D3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Main Audio Bus" ID="{2991E371-C831-4895-B6C2-58499524EFDA}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{405AD73A-0E6F-4FD6-B827-D747765311B4}" WorkUnitID="{BC19A8E5-F8D2-4132-A163-38BF5899DCEE}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Send Audio Bus" ID="{2C3CA4F7-45E3-4E8A-9336-0F6C503C5918}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{3A3792EE-C928-4799-8325-A166C4BDD89F}" ShortID="336570097">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Tencent GME Send (Custom)" ID="{2FA7C9BD-3809-4521-AEDF-C7557D2AE781}" ShortID="901344222" PluginName="Tencent GME Send" CompanyID="289" PluginID="9004" PluginType="3"/>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Factory Tencent GME" ID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Inclusion" Type="bool">
+					<ValueList>
+						<Value>False</Value>
+					</ValueList>
+				</Property>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_GME_Send" ID="{8973DC7A-7E7A-4A84-AD30-B546CB50720B}">
+					<ChildrenList>
+						<Action Name="" ID="{D5BD7FB9-83A8-4937-87A8-4C99CF21D1ED}" ShortID="448508767">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GME Send Voice" ID="{27786AED-5C2E-42F6-BB7A-9D230E8FE113}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GME_Send" ID="{7826CC88-B725-4539-9416-2F53E7723708}">
+					<ChildrenList>
+						<Action Name="" ID="{055DF3AC-865D-4F84-BCD1-FF954ABBC9E7}" ShortID="202296462">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GME Send Voice" ID="{27786AED-5C2E-42F6-BB7A-9D230E8FE113}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GME_Receive" ID="{37169F7F-A978-42B0-BDAE-B768CEFCE580}">
+					<ChildrenList>
+						<Action Name="" ID="{F41ED9FC-5412-4789-88BE-ACC91DF60566}" ShortID="1049869638">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GME Receive" ID="{2C246068-6A57-4DB8-B53E-D17A55F0679F}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GME_Receive" ID="{1E18FDB9-8309-474B-9D84-49B3160F1D07}">
+					<ChildrenList>
+						<Action Name="" ID="{B378A72C-FBED-41EF-B273-3637277CA05F}" ShortID="133078048">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GME Receive" ID="{2C246068-6A57-4DB8-B53E-D17A55F0679F}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GME_Send_Loop" ID="{E6A363E6-B008-4E2E-94CF-1AA3B670656D}">
+					<ChildrenList>
+						<Action Name="" ID="{C4DE36FE-873C-4432-8B65-14ECDF3ADF34}" ShortID="580311599">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GME Send Loop" ID="{BCAA2E0C-278B-4566-A986-E04A261C8123}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GME_Send_Loop" ID="{05A61C97-E0F5-4B80-9FA6-AE4E99F9DB68}">
+					<ChildrenList>
+						<Action Name="" ID="{1CBC748F-5745-47C3-83BB-B3C5B86E3115}" ShortID="54983999">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GME Send Loop" ID="{BCAA2E0C-278B-4566-A986-E04A261C8123}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Short" ID="{DEC87872-7CA3-4FDF-99A9-97F4AD73A5F1}">
+					<ChildrenList>
+						<Action Name="" ID="{0F6C1362-B810-48AD-9B7F-D25F3637531A}" ShortID="210180569">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Short" ID="{F0598286-89B5-4E28-BC1E-F4C052A28A84}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Loop" ID="{C29764DA-06FD-43A1-AC62-ED16F82E46C9}">
+					<ChildrenList>
+						<Action Name="" ID="{070DDDE2-79F2-4BF3-8D56-C59D61273823}" ShortID="135054808">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Loop" ID="{4B54441F-F3B7-40A3-AA8C-54BE7D22B670}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Short" ID="{DF48E4CC-30E7-47D3-8BB6-F13734FCB53E}">
+					<ChildrenList>
+						<Action Name="" ID="{5E34A935-9B4D-43BB-8461-D514E786B9FC}" ShortID="1038885143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Short" ID="{F0598286-89B5-4E28-BC1E-F4C052A28A84}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Loop" ID="{DBE6F35D-10BD-4F50-8701-0B8A9901CD27}">
+					<ChildrenList>
+						<Action Name="" ID="{0DBD76A0-38F1-4C2B-A2EB-4F6D5169A4E6}" ShortID="537730582">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Loop" ID="{4B54441F-F3B7-40A3-AA8C-54BE7D22B670}" WorkUnitID="{D4726262-E090-441D-87BF-E875DC3BF2BF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Aliases" ID="{920C8C78-6DEF-4F02-A811-67BA8339D847}" ShortID="815519779">
+					<ChildrenList>
+						<Event Name="Play_gme_blend" ID="{51E24B83-1EC1-456F-A073-54C5EBEF3D14}">
+							<ChildrenList>
+								<Action Name="" ID="{E2E9412C-049A-4CB5-A40F-3E97DF72996E}" ShortID="177755279">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_GME_Send_Loop" ID="{E6A363E6-B008-4E2E-94CF-1AA3B670656D}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_original" ID="{DB4827D7-8E9D-4D12-BD74-7986E6333199}">
+							<ChildrenList>
+								<Action Name="" ID="{83B922CC-4BD9-46FB-96FD-999C343B09DE}" ShortID="900695866">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Loop" ID="{C29764DA-06FD-43A1-AC62-ED16F82E46C9}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Shotgun" ID="{92CCB5F4-AD7E-4C2F-B269-DA58D36A80D8}">
+							<ChildrenList>
+								<Action Name="" ID="{134E40E8-4E6A-45AC-A247-39B6358D0798}" ShortID="770819023">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Short" ID="{DEC87872-7CA3-4FDF-99A9-97F4AD73A5F1}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_original" ID="{718E9BAD-6ADB-4B0E-83F7-781A5FB30689}">
+							<ChildrenList>
+								<Action Name="" ID="{DF67C4F8-2951-44C4-8964-0AEF35366099}" ShortID="229698890">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Loop" ID="{DBE6F35D-10BD-4F50-8701-0B8A9901CD27}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Shotgun" ID="{0D855CF7-EFCC-409B-B7C8-986E793C15A3}">
+							<ChildrenList>
+								<Action Name="" ID="{C27D59DF-B2BC-4500-8349-A6076BE34E30}" ShortID="1055370778">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_Short" ID="{DF48E4CC-30E7-47D3-8BB6-F13734FCB53E}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_gme_blend" ID="{7296F5B6-CDF0-4028-A040-A96E4089B61A}">
+							<ChildrenList>
+								<Action Name="" ID="{88BFE695-E066-4692-A997-C49FE9F8C138}" ShortID="695795961">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Stop_GME_Send_Loop" ID="{05A61C97-E0F5-4B80-9FA6-AE4E99F9DB68}" WorkUnitID="{770E39B1-7C52-442A-A4F7-653AE6B0C847}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

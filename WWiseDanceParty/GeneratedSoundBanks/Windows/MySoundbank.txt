@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2356916426	Play_MusicPlaylistContainer			\Default Work Unit\Play_MusicPlaylistContainer	
+	3985336800	Stop_MusicPlaylistContainer			\Default Work Unit\Stop_MusicPlaylistContainer	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	194467068	DancePartyAudioFiles	C:\Users\Nicholas Saluti\DanceParty\WWiseDanceParty\.cache\35\{35C078B8-15CF-919C-15E4-C0B128BE4BE5}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylistContainer\DanceMusicSegment\DancePartyAudioFiles		3175296
+

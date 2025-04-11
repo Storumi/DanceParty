@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29557A98-1808-4656-8A56-A09ADF34027F}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{29557A98-1808-4656-8A56-A09ADF34027F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_DancePartyAudioFiles" ID="{A500FCB9-38B4-4FF5-93E8-79F1F1CD54D5}">
+					<ChildrenList>
+						<Action Name="" ID="{B3826B4F-1960-44D1-AECA-B46ADC965225}" ShortID="340184712">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DancePartyAudioFiles" ID="{1F5CC1A1-E159-4394-A4DD-7B7447F353F1}" WorkUnitID="{0E054613-6743-40A9-AA7E-161AFB743CBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_DancePartyAudioFiles" ID="{3EB0FE94-3B14-4078-A0F6-1A629C3E6A30}">
+					<ChildrenList>
+						<Action Name="" ID="{81A4D428-991D-49EB-A95A-F998E16E60D8}" ShortID="777430415">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DancePartyAudioFiles" ID="{1F5CC1A1-E159-4394-A4DD-7B7447F353F1}" WorkUnitID="{0E054613-6743-40A9-AA7E-161AFB743CBD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MusicPlaylistContainer" ID="{3BF1CA24-A41C-4CD8-8978-489A89C0A501}">
+					<ChildrenList>
+						<Action Name="" ID="{A91D20CD-242E-47F6-AAEC-11F1BBB3C796}" ShortID="599300576">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicPlaylistContainer" ID="{21920296-CE32-419E-847A-1B0104066ED8}" WorkUnitID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MusicPlaylistContainer" ID="{C8380465-FFBD-4A57-9979-062246724E93}">
+					<ChildrenList>
+						<Action Name="" ID="{02330145-A5BA-43B0-8297-52FC54590357}" ShortID="358874770">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicPlaylistContainer" ID="{21920296-CE32-419E-847A-1B0104066ED8}" WorkUnitID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

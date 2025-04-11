@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0E054613-6743-40A9-AA7E-161AFB743CBD}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0E054613-6743-40A9-AA7E-161AFB743CBD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="DancePartyAudioFiles" ID="{1F5CC1A1-E159-4394-A4DD-7B7447F353F1}" ShortID="97381842">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1B326197-EF00-49FB-AB26-FBFCEB1E8379}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3E1564C7-4885-4C9E-95FE-DFA8CC06C6FD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DancePartyAudioFiles" ID="{6296D6BB-A157-4610-832C-98308F30A68B}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.01"/>
+								<Property Name="LoopEnd" Type="Real64" Value="16"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>DancePartyAudioFiles.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="531413676"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DancePartyAudioFiles" ID="{6296D6BB-A157-4610-832C-98308F30A68B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
