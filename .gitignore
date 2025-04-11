@@ -10,6 +10,26 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
+# Wwise 
+
+# project stuff
+MYPROJECT_WwiseProject/.cache/
+MYPROJECT_WwiseProject/*.prof
+MYPROJECT_WwiseProject/*_WwiseProject.*.validationcache
+MYPROJECT_WwiseProject/*_WwiseProject.*.wsettings
+MYPROJECT_WwiseProject/**/*.akd
+**/.cache/
+*.akd
+
+# build stuff (unsure?)
+# Assets/Wwise/Deployment/Plugins/Windows/**/*.meta
+
+# WWise Picker (editor)
+# from https://www.audiokinetic.com/library/edge/?source=Unity&id=unity__troubleshooting.html
+# >> Do not keep AkWwiseProjectData.asset under version control! 
+# >> This is a temporary cache file for the Wwise project data, 
+# >> so as to avoid having the Wwise Picker continuously parse the Work Unit files.
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
