@@ -64,7 +64,7 @@ public class PlayerScript : MonoBehaviour
         
 
     }
-
+    
     public void CheckMatch()
     {
         Debug.Log("Checking");
@@ -76,6 +76,8 @@ public class PlayerScript : MonoBehaviour
                 if (tile.GetComponent<SpriteRenderer>().color == GetComponent<SpriteRenderer>().color)
                 {
                     Debug.Log("SameColor");
+                    RhythmManagerOne.rm1.score++;
+                    //play a sound here
                     canMove = true;
                     CycleColor();
                 }

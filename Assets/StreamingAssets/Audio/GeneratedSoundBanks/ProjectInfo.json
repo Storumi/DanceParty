@@ -3,7 +3,7 @@
   "Project": {
    "Name": "WWiseDanceParty",
    "GUID": "{1334F153-09B3-4FC3-A7B6-EDA040652395}",
-   "Generator": "2024.1.3.8749"
+   "Generator": "2024.1.2.8726"
   },
   "CacheRoot": "../../../../WWiseDanceParty/.cache",
   "Platforms": [
@@ -24,6 +24,6 @@
     "UseAsStandIn": "true"
    }
   ],
-  "FileHash": "{52955B77-B893-E9D4-FFD3-81F97F010D8E}"
+  "FileHash": "{7F84B483-55F8-9BCC-35D8-1EA5959B22C6}"
  }
 }

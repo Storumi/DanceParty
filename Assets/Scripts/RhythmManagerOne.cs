@@ -8,7 +8,9 @@ public class RhythmManagerOne : MonoBehaviour {
     public List<FloorTileScript> floorTiles = new List<FloorTileScript>();
     public List<PlayerScript> playerScripts = new List<PlayerScript>();
     [SerializeField] public List<Color> colorList;
+    [SerializeField] public List<GemSpawnScript> gemSpawnList;
     [SerializeField] AK.Wwise.Event musicEvent;
+    public int score = 0;
     uint playingID;
 
     [SerializeField] float beatDuration;
@@ -67,9 +69,9 @@ public class RhythmManagerOne : MonoBehaviour {
             switch (in_type) {
 
                 case AkCallbackType.AK_MusicSyncUserCue:
-                    //Debug.Log("My User Cue");
-                    //Debug.Log($"This cue has the name: {musicInfo.userCueName}");
-                    //ManageUserCue(musicInfo.userCueName);
+                    Debug.Log("My User Cue");
+                    Debug.Log($"This cue has the name: {musicInfo.userCueName}");
+                    ManageUserCue(musicInfo.userCueName);
                    break;
 
                 case AkCallbackType.AK_MusicSyncBeat:
@@ -127,13 +129,20 @@ public class RhythmManagerOne : MonoBehaviour {
     void ManageUserCue(string s) {
         switch (s) {
             case "A":
-                Debug.Log("Looks like we're at A!");
+                Debug.Log("A");
+                gemSpawnList[0].SpawnGem();
                 break;
             case "B":
-                Debug.Log("It's a B! Run!");
+                Debug.Log("B");
+                gemSpawnList[1].SpawnGem();
                 break;
             case "C":
-                Debug.Log("C you later!!");
+                Debug.Log("C");
+                gemSpawnList[2].SpawnGem();
+                break;
+            case "D":
+                Debug.Log("D");
+                gemSpawnList[3].SpawnGem();
                 break;
         }
     }

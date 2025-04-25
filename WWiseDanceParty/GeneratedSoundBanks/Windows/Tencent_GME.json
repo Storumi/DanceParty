@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3683561152",
+    "Type": "User",
+    "GUID": "{ACFD17FF-AC29-4CD1-B8A2-F70164A8A7D4}",
+    "Language": "SFX",
+    "Hash": "{3957A482-7E76-AEA7-CDBC-7EAE037E79E8}",
+    "ObjectPath": "\\SoundBanks\\Factory Tencent GME\\Tencent_GME",
+    "ShortName": "Tencent_GME",
+    "Path": "Tencent_GME.bnk"
+   }
+  ],
+  "FileHash": "{26220B0B-1B1F-7A69-228E-2417913CFB8B}"
+ }
+}

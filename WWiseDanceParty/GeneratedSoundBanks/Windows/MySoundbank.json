@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{5BE8C6CB-374E-41E0-9E6C-6CC83A9F4033}",
     "Language": "SFX",
-    "Hash": "{376C3019-FBB0-143B-81E4-5024F86FE761}",
+    "Hash": "{D63154ED-4E92-FEF5-0BAF-66DBA8F49AAB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MySoundbank",
     "ShortName": "MySoundbank",
     "Path": "MySoundbank.bnk",
@@ -21,7 +21,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "DancePartyAudioFiles.wav",
-      "CachePath": "35/{35C078B8-15CF-919C-15E4-C0B128BE4BE5}.wem"
+      "CachePath": "EE/{EE0494C4-74C4-4AA7-734B-069D03ADC927}.wem"
      }
     ],
     "Events": [
@@ -50,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{CD46CB7F-DB22-6655-CEE3-1A9D84A47C38}"
+  "FileHash": "{C2352130-5AB3-EDAF-1862-9FA29809E95D}"
  }
 }

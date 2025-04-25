@@ -12,8 +12,15 @@
     "LibName": "No Output",
     "LibId": "11862023",
     "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Tencent GME Send",
+    "LibId": "590090771",
+    "Type": "Effect",
+    "DLL": "TencentGME",
+    "StaticLib": "TencentGME"
    }
   ],
-  "FileHash": "{71F42CD2-2880-BF0B-D154-F41540A353AF}"
+  "FileHash": "{69FF65E8-5643-7D17-5F11-293E2F9A1BF2}"
  }
 }
