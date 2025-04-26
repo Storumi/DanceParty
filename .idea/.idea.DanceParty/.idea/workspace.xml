@@ -6,24 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3902d391-e412-468d-b442-162e90c9d0ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DanceParty/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DanceParty/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerScript.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RhythmManagerOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RhythmManagerOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/ProjectInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Wwise_IDs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/3BF1CA24-A41C-4CD8-8978-489A89C0A501.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Wwise/ScriptableObjects/Event/3BF1CA24-A41C-4CD8-8978-489A89C0A501.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/Actor-Mixer Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/Actor-Mixer Hierarchy/Default Work Unit.wwu" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/Init.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/Init.bnk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/Init.json" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/Init.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/Init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/Init.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/MySoundbank.bnk" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/MySoundbank.bnk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/MySoundbank.json" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/MySoundbank.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/MySoundbank.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/MySoundbank.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/PlatformInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/PlatformInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/PluginInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/GeneratedSoundBanks/Windows/PluginInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WWiseDanceParty/Interactive Music Hierarchy/Default Work Unit.wwu" beforeDir="false" afterPath="$PROJECT_DIR$/WWiseDanceParty/Interactive Music Hierarchy/Default Work Unit.wwu" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742088504479</updated>
       <workItem from="1742088506113" duration="9943000" />
-      <workItem from="1745593735006" duration="4574000" />
+      <workItem from="1745593735006" duration="6569000" />
     </task>
     <servers />
   </component>
