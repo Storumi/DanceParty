@@ -10,38 +10,40 @@
     "Type": "User",
     "GUID": "{5BE8C6CB-374E-41E0-9E6C-6CC83A9F4033}",
     "Language": "SFX",
-    "Hash": "{D63154ED-4E92-FEF5-0BAF-66DBA8F49AAB}",
+    "Hash": "{7131E6D2-0285-AE1F-504B-6058DEDC8AD4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MySoundbank",
     "ShortName": "MySoundbank",
     "Path": "MySoundbank.bnk",
     "Media": [
      {
-      "Id": "194467068",
+      "Id": "485472029",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "DancePartyAudioFiles.wav",
-      "CachePath": "EE/{EE0494C4-74C4-4AA7-734B-069D03ADC927}.wem"
+      "ShortName": "Make This Right.wav",
+      "CachePath": "CE/{CE3A387A-9E54-5608-4552-44DFAA057B20}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "2356916426",
-      "Name": "Play_MusicPlaylistContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_MusicPlaylistContainer",
-      "GUID": "{3BF1CA24-A41C-4CD8-8978-489A89C0A501}",
-      "DurationType": "Infinite",
+      "Id": "2534093492",
+      "Name": "Play_Make_This_Right",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Make_This_Right",
+      "GUID": "{6AA2AA56-5A25-48DB-A9D9-64CF92BB1338}",
+      "DurationType": "OneShot",
+      "DurationMin": "348.20645",
+      "DurationMax": "348.20645",
       "MediaRefs": [
        {
-        "Id": "194467068"
+        "Id": "485472029"
        }
       ]
      },
      {
-      "Id": "3985336800",
-      "Name": "Stop_MusicPlaylistContainer",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_MusicPlaylistContainer",
-      "GUID": "{C8380465-FFBD-4A57-9979-062246724E93}",
+      "Id": "3014818542",
+      "Name": "Stop_Make_This_Right",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Make_This_Right",
+      "GUID": "{89CC2CAB-B70D-404B-9D4D-5925FF20FB1F}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -50,6 +52,6 @@
     ]
    }
   ],
-  "FileHash": "{C2352130-5AB3-EDAF-1862-9FA29809E95D}"
+  "FileHash": "{BBB1D3EA-C084-826C-774A-BD364FB8F605}"
  }
 }

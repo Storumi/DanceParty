@@ -53,6 +53,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Make_This_Right" ID="{6AA2AA56-5A25-48DB-A9D9-64CF92BB1338}">
+					<ChildrenList>
+						<Action Name="" ID="{175E539D-3F9C-4CDF-805F-872BC90680D3}" ShortID="772778533">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Make This Right" ID="{C1B8F0EE-4AE6-4999-B1AA-9E5FA78C7F26}" WorkUnitID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Make_This_Right" ID="{89CC2CAB-B70D-404B-9D4D-5925FF20FB1F}">
+					<ChildrenList>
+						<Action Name="" ID="{FA504D77-6E7B-4257-82C5-E8248DC8E477}" ShortID="491664775">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Make This Right" ID="{C1B8F0EE-4AE6-4999-B1AA-9E5FA78C7F26}" WorkUnitID="{6D6C69DC-A0EA-4AB2-B795-7A78FBC8C463}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70966d379f8a081469e4b74ba619337b, type: 3}
+  m_Name: 6AA2AA56-5A25-48DB-A9D9-64CF92BB1338
+  m_EditorClassIdentifier: 
+  objectName: Play_Make_This_Right
+  id: 2534093492
+  guid: 6AA2AA56-5A25-48DB-A9D9-64CF92BB1338
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

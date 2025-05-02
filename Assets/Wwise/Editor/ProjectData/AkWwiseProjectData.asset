@@ -376,7 +376,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 43fc321ee15cb848b7d27d7ccf92f996
     GuidInternal: 
-    m_lastTime: -8584560197066906631
+    m_lastTime: -8584559540695061807
     List:
     - name: MySoundbank
       guid: cbc6e85b4e37e0419e6c6cc83a9f4033
@@ -431,7 +431,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 987a5529081856468a56a09adf34027f
     GuidInternal: 
-    m_lastTime: -8584560197067961136
+    m_lastTime: -8584559541003859248
     List:
     - name: Play_DancePartyAudioFiles
       guid: b9fc00a5b438f54f93e879f1f1cd54d5
@@ -450,6 +450,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Make_This_Right
+      guid: 56aaa26a255adb48a9d964cf92bb1338
+      id: 2534093492
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 987a5529081856468a56a09adf34027f
+      - ElementName: Play_Make_This_Right
+        ObjectType: 3
+        guid: 56aaa26a255adb48a9d964cf92bb1338
+      Path: Events\Default Work Unit\Play_Make_This_Right
+      maxAttenuation: 0
+      maxDuration: 348.20645
+      minDuration: 348.20645
     - name: Play_MusicPlaylistContainer
       guid: 24caf13b1ca4d84c8978489a89c0a501
       id: 2356916426
@@ -484,6 +501,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Make_This_Right
+      guid: ab2ccc890db74b409d4d5925ff20fb1f
+      id: 3014818542
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 987a5529081856468a56a09adf34027f
+      - ElementName: Stop_Make_This_Right
+        ObjectType: 3
+        guid: ab2ccc890db74b409d4d5925ff20fb1f
+      Path: Events\Default Work Unit\Stop_Make_This_Right
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_MusicPlaylistContainer
       guid: 650438c8bdff574a9979062246724e93
       id: 3985336800

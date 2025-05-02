@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2356916426	Play_MusicPlaylistContainer			\Default Work Unit\Play_MusicPlaylistContainer	
-	3985336800	Stop_MusicPlaylistContainer			\Default Work Unit\Stop_MusicPlaylistContainer	
+	2534093492	Play_Make_This_Right			\Default Work Unit\Play_Make_This_Right	
+	3014818542	Stop_Make_This_Right			\Default Work Unit\Stop_Make_This_Right	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	194467068	DancePartyAudioFiles	C:\Users\stalu\Desktop\DanceParty\WWiseDanceParty\.cache\EE\{EE0494C4-74C4-4AA7-734B-069D03ADC927}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylistContainer\DanceMusicSegment\DancePartyAudioFiles		3175360
+	485472029	Make This Right	C:\Users\Nicholas Saluti\DanceParty\WWiseDanceParty\.cache\CE\{CE3A387A-9E54-5608-4552-44DFAA057B20}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylistContainer\Make This Right\Make This Right		61423712
 

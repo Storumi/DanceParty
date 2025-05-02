@@ -8,11 +8,17 @@ public class PlayerScript : MonoBehaviour
     Transform tf;
     bool canMove = true;
     int _offset;
+    private int animIndex;
+    Animation anim;
+    Animation anim2;
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animation>();
+        anim2 = GetComponentInChildren<Animation>();
         tf = GetComponent<Transform>();
         RhythmManagerOne.rm1.playerScripts.Add(this);
+        animIndex = 0;
     }
 
     // Update is called once per frame
@@ -58,29 +64,47 @@ public class PlayerScript : MonoBehaviour
     }
     public void CycleColor()
     {
-        
+         Color temp = GetComponent<SpriteRenderer>().color;
         _offset=Random.Range(0, RhythmManagerOne.rm1.colorList.Count);
-        GetComponent<SpriteRenderer>().color = RhythmManagerOne.rm1.colorList[_offset];
-        
+        if (temp == RhythmManagerOne.rm1.colorList[_offset])
+        {
+            Debug.Log("Same Color");
+            CycleColor();
+            return;
+        }
+        else
+        {
+            GetComponent<SpriteRenderer>().color = RhythmManagerOne.rm1.colorList[_offset];
+        }
 
     }
     
     public void CheckMatch()
     {
-        Debug.Log("Checking");
+        //Debug.Log("Checking");
         foreach (var tile in RhythmManagerOne.rm1.floorTiles)
         {
-            if (tile.transform.position == tf.position)
+            Vector2 temp1=new Vector2(tile.transform.position.x, tile.transform.position.y);
+            Vector2 temp2=new Vector2(tf.position.x, tf.position.y);
+            if (temp1==temp2)
             {
-                Debug.Log("SameSpot");
+                //Debug.Log("SameSpot");
                 if (tile.GetComponent<SpriteRenderer>().color == GetComponent<SpriteRenderer>().color)
                 {
-                    Debug.Log("SameColor");
-                    Debug.Log("SameColor");
+                    //Debug.Log("SameColor");
+                    //Debug.Log("SameColor");
                     RhythmManagerOne.rm1.score++;
                     //play a sound here
                     canMove = true;
+                    anim.Rewind();
+                    anim.Play();
+                    anim2.Play();
+                    tile.ScoreAnim();
                     CycleColor();
+                }
+                else
+                {
+                    tile.MoveAnim();
                 }
                 
             }

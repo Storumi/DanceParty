@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,12 +6,14 @@ using System.Linq;
 
 public class RhythmManagerOne : MonoBehaviour {
     public static RhythmManagerOne rm1 { get; private set; }
+    [SerializeField] float decay = 0.1f;
     public List<FloorTileScript> floorTiles = new List<FloorTileScript>();
     public List<PlayerScript> playerScripts = new List<PlayerScript>();
+    public List<GemScript> gemScripts = new List<GemScript>();
     [SerializeField] public List<Color> colorList;
     [SerializeField] public List<GemSpawnScript> gemSpawnList;
     [SerializeField] AK.Wwise.Event musicEvent;
-    public int score = 0;
+    public float score = 0;
     uint playingID;
 
     [SerializeField] float beatDuration;
@@ -58,6 +61,13 @@ public class RhythmManagerOne : MonoBehaviour {
     }
     #endregion
 
+    private void Update()
+    {
+        if (score > 0)
+        {
+            score -= Time.deltaTime * decay;
+        }
+    }
 
     void CallbackFunction(object in_cookie, AkCallbackType in_type, AkCallbackInfo in_info) {
         AkMusicSyncCallbackInfo musicInfo;
@@ -128,50 +138,47 @@ public class RhythmManagerOne : MonoBehaviour {
 
     void ManageUserCue(string s) {
         switch (s) {
-            case "A":
-                Debug.Log("A");
+            case "B":
+                //Debug.Log("A");
                 gemSpawnList[0].SpawnGem();
                 break;
-            case "B":
-                Debug.Log("B");
+            case "A":
+                //Debug.Log("B");
                 gemSpawnList[1].SpawnGem();
                 break;
             case "C":
-                Debug.Log("C");
+                //Debug.Log("C");
                 gemSpawnList[2].SpawnGem();
                 break;
             case "D":
-                Debug.Log("D");
+                //Debug.Log("D");
                 gemSpawnList[3].SpawnGem();
                 break;
         }
     }
-
-    /// <summary>
-    /// Here is an example function of a place where you can do something that reacts on the beat
-    /// </summary>
+    
     void OnTheBeat() {
-        Debug.Log("Here is a beat event!");
-        
+        Debug.Log("CANMOVE");
+        foreach (var player in playerScripts)
+        {
+            player.GrantMove();
+            
+        }
+        foreach(var gem in gemScripts)
+        {
+            gem.Move();
+        }
+    }
+    void OnTheBar() {
         foreach (var tile in floorTiles)
         {
             tile.CycleColor();
         }
-        
+
         foreach (var player in playerScripts)
         {
-            player.GrantMove();
+            player.CheckMatch();
         }
-        
-        //testCirlce.color = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
-    }
-
-    /// <summary>
-    /// Here is an example function of a place where you can do something that reacts on the bar
-    /// </summary>
-    void OnTheBar() {
-        Debug.Log("Here is a bar event!");
-        //testCirlce.transform.localScale = new Vector3(Random.Range(2.0f, 4.0f), Random.Range(2.0f, 4.0f), Random.Range(0.0f, 1.0f));
     }
 
     #region Other

@@ -10,21 +10,11 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{74266B66-0AB7-A5A4-31EA-86DF8498D05A}",
+    "Hash": "{28259FA9-BDA4-83F9-BAFE-35D95A3A4633}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
-     "Custom": [
-      {
-       "Id": "901344222",
-       "Name": "Tencent GME Send (Custom)",
-       "ObjectPath": "\\Master-Mixer Hierarchy\\Factory Tencent GME\\Main Audio Bus\\Send Audio Bus\\[Effect Slot [0]: (Tencent GME Send)]\\Tencent GME Send (Custom)",
-       "GUID": "{2FA7C9BD-3809-4521-AEDF-C7557D2AE781}",
-       "LibName": "Tencent GME Send",
-       "LibId": "590090771"
-      }
-     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -55,14 +45,7 @@
       "Id": "2265867795",
       "Name": "Send Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Factory Tencent GME\\Main Audio Bus\\Send Audio Bus",
-      "GUID": "{2C3CA4F7-45E3-4E8A-9336-0F6C503C5918}",
-      "PluginRefs": {
-       "Custom": [
-        {
-         "Id": "901344222"
-        }
-       ]
-      }
+      "GUID": "{2C3CA4F7-45E3-4E8A-9336-0F6C503C5918}"
      },
      {
       "Id": "3803692087",
@@ -612,6 +595,6 @@
     ]
    }
   ],
-  "FileHash": "{649DCEDF-D326-9818-F7AB-9DF7E760F51E}"
+  "FileHash": "{C125196B-DE39-1B77-1C4D-B30E2502BDFF}"
  }
 }

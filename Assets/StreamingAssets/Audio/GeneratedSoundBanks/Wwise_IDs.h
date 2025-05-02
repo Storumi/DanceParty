@@ -13,8 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_MUSICPLAYLISTCONTAINER = 2356916426U;
-        static const AkUniqueID STOP_MUSICPLAYLISTCONTAINER = 3985336800U;
+        static const AkUniqueID PLAY_MAKE_THIS_RIGHT = 2534093492U;
+        static const AkUniqueID STOP_MAKE_THIS_RIGHT = 3014818542U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

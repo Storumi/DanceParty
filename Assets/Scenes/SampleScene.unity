@@ -14844,7 +14844,7 @@ MonoBehaviour:
   musicEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 023459559e42dba438f75bd26b578d9c, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 51116c3635e778546aaaae4334bdf19f, type: 2}
   score: 0
   beatDuration: 0
   barDuration: 9
