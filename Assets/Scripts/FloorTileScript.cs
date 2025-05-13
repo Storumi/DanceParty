@@ -59,6 +59,7 @@ public class FloorTileScript : MonoBehaviour
             gem=other.gameObject.GetComponent<GemScript>();
         }
     }
+    //add collission stay check
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.tag == "Gem")
