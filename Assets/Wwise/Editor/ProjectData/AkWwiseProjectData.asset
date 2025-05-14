@@ -376,7 +376,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 43fc321ee15cb848b7d27d7ccf92f996
     GuidInternal: 
-    m_lastTime: -8584554004132107932
+    m_lastTime: -8584544528509104800
     List:
     - name: MySoundbank
       guid: cbc6e85b4e37e0419e6c6cc83a9f4033
@@ -431,7 +431,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 987a5529081856468a56a09adf34027f
     GuidInternal: 
-    m_lastTime: -8584554004141047674
+    m_lastTime: -8584544528512845840
     List:
     - name: Play_DancePartyAudioFiles
       guid: b9fc00a5b438f54f93e879f1f1cd54d5
@@ -465,8 +465,8 @@ MonoBehaviour:
         guid: 56aaa26a255adb48a9d964cf92bb1338
       Path: Events\Default Work Unit\Play_Make_This_Right
       maxAttenuation: 0
-      maxDuration: 348.20645
-      minDuration: 348.20645
+      maxDuration: 349.44473
+      minDuration: 349.44473
     - name: Play_MusicPlaylistContainer
       guid: 24caf13b1ca4d84c8978489a89c0a501
       id: 2356916426

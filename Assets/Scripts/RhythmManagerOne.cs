@@ -112,10 +112,11 @@ public class RhythmManagerOne : MonoBehaviour {
             switch (midiInfo.byType) {
                 case AkMIDIEventTypes.NOTE_ON:
                     NoteOnEvents(midiInfo);
+                    Debug.Log("Note On");
                     break;
 
                 case AkMIDIEventTypes.NOTE_OFF:
-                    
+                    Debug.Log("Note Off");
                     break;
 
                 case AkMIDIEventTypes.PITCH_BEND:
@@ -129,9 +130,6 @@ public class RhythmManagerOne : MonoBehaviour {
         Debug.Log($"Note: {b.byOnOffNote}");
 
         switch (b.byOnOffNote) {
-
-
-
         }
 
     }

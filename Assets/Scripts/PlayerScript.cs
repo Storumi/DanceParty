@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerScript : MonoBehaviour
 {
     [SerializeField] private int Starting_Health;
+    [SerializeField] AK.Wwise.Event fxEvent;
+    
     Transform tf;
     bool canMove = true;
     int _offset;
@@ -88,18 +90,22 @@ public class PlayerScript : MonoBehaviour
             Vector2 temp2=new Vector2(tf.position.x, tf.position.y);
             if (temp1==temp2)
             {
+                
                 //Debug.Log("SameSpot");
                 if (tile.GetComponent<SpriteRenderer>().color == GetComponent<SpriteRenderer>().color)
                 {
                     //Debug.Log("SameColor");
                     //Debug.Log("SameColor");
+                    
                     RhythmManagerOne.rm1.score++;
+                    
                     //play a sound here
                     canMove = true;
                     anim.Rewind();
                     anim.Play();
                     anim2.Play();
                     tile.ScoreAnim();
+                    fxEvent.Post(gameObject);
                     CycleColor();
                 }
                 else

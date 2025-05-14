@@ -1,7 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	792278832	Play_Pickup19			\Default Work Unit\Play_Pickup19	
+	1916619709	Play_Midi			\Default Work Unit\Play_Midi	
 	2534093492	Play_Make_This_Right			\Default Work Unit\Play_Make_This_Right	
 	3014818542	Stop_Make_This_Right			\Default Work Unit\Stop_Make_This_Right	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	238382708	DanceMidi	C:\Users\Nicholas Saluti\DanceParty\WWiseDanceParty\.cache\1D\{1D2B30B0-5F8F-27A7-6BAD-995776186259}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylistContainer\Midi\DanceMidi		90
 	485472029	Make This Right	C:\Users\Nicholas Saluti\DanceParty\WWiseDanceParty\.cache\CE\{CE3A387A-9E54-5608-4552-44DFAA057B20}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylistContainer\Make This Right\Make This Right		61423712
+	913744357	Pickup19	C:\Users\Nicholas Saluti\DanceParty\WWiseDanceParty\.cache\6B\{6B41281A-1476-F1C5-EEE0-D6C6F1EE9C61}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylistContainer\Pickup19\Pickup19		24438
 

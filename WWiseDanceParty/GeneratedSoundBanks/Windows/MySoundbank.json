@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{5BE8C6CB-374E-41E0-9E6C-6CC83A9F4033}",
     "Language": "SFX",
-    "Hash": "{7131E6D2-0285-AE1F-504B-6058DEDC8AD4}",
+    "Hash": "{6D0F7AF5-880C-4E2D-4DA8-7B74D1FA4217}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\MySoundbank",
     "ShortName": "MySoundbank",
     "Path": "MySoundbank.bnk",
     "Media": [
+     {
+      "Id": "238382708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DanceMidi.mid",
+      "CachePath": "1D/{1D2B30B0-5F8F-27A7-6BAD-995776186259}.wem"
+     },
      {
       "Id": "485472029",
       "Language": "SFX",
@@ -22,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Make This Right.wav",
       "CachePath": "CE/{CE3A387A-9E54-5608-4552-44DFAA057B20}.wem"
+     },
+     {
+      "Id": "913744357",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pickup19.wav",
+      "CachePath": "6B/{6B41281A-1476-F1C5-EEE0-D6C6F1EE9C61}.wem"
      }
     ],
     "Events": [
@@ -31,11 +47,39 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Make_This_Right",
       "GUID": "{6AA2AA56-5A25-48DB-A9D9-64CF92BB1338}",
       "DurationType": "OneShot",
-      "DurationMin": "348.20645",
-      "DurationMax": "348.20645",
+      "DurationMin": "349.44473",
+      "DurationMax": "349.44473",
       "MediaRefs": [
        {
         "Id": "485472029"
+       }
+      ]
+     },
+     {
+      "Id": "1916619709",
+      "Name": "Play_Midi",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Midi",
+      "GUID": "{9FAE4E3E-75F4-4FF7-A360-80847999014D}",
+      "DurationType": "OneShot",
+      "DurationMin": "349.4736",
+      "DurationMax": "349.4736",
+      "MediaRefs": [
+       {
+        "Id": "238382708"
+       }
+      ]
+     },
+     {
+      "Id": "792278832",
+      "Name": "Play_Pickup19",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pickup19",
+      "GUID": "{00BC33D1-013A-45DF-8DCB-4FA13F663F51}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2759864",
+      "DurationMax": "0.2759864",
+      "MediaRefs": [
+       {
+        "Id": "913744357"
        }
       ]
      },
@@ -52,6 +96,6 @@
     ]
    }
   ],
-  "FileHash": "{BBB1D3EA-C084-826C-774A-BD364FB8F605}"
+  "FileHash": "{91957E05-C15C-8AFB-567E-0154183F0993}"
  }
 }
